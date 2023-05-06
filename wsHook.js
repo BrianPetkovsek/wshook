@@ -7,7 +7,7 @@
  * Reference: http://www.w3.org/TR/2011/WD-websockets-20110419/#websocket
  */
 
-var wsHook = {};
+window.wsHook = {};
 (function () {
   // Mutable MessageEvent.
   // Subclasses MessageEvent and makes data, origin and other MessageEvent properites mutatble.
